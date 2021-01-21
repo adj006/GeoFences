@@ -45,8 +45,8 @@ import com.google.android.material.snackbar.Snackbar
 /**
  * The Treasure Hunt app is a single-player game based on geofences.
  *
- * This app demonstrates how to create and remove geofences using the GeofencingApi. Uses an
- * BroadcastReceiver to monitor geofence transitions and creates notification and finishes the game
+ * This app demonstrates how to create and remove geofences using the GeofencingApi. Uses a
+ * BroadcastReceiver to monitor geofence transitions, creates notification, and finishes the game
  * when the user enters the final geofence (destination).
  *
  * This app requires a device's Location settings to be turned on. It also requires
