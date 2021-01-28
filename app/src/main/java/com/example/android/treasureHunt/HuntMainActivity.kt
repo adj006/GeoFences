@@ -339,7 +339,7 @@ class HuntMainActivity : AppCompatActivity() {
         }
         geofencingClient.removeGeofences(geofencePendingIntent)?.run {
             addOnSuccessListener {
-                Log.d(TAG, R.string.geofences_removed)
+                Log.d(TAG, getString(R.string.geofences_removed))
                 Toast.makeText(applicationContext, R.string.geofences_removed, Toast.LENGTH_SHORT)
                         .show()
             }
