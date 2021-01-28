@@ -82,7 +82,7 @@ internal object GeofencingConstants {
                 "Lombard Street",
                 R.string.lombard_street_hint,
                 R.string.lombard_street_location,
-                LatLng(37.801205, -122.426752)))
+                LatLng(37.801205, -122.426752))
     )
 
 
